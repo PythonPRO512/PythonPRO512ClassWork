@@ -1,5 +1,3 @@
-from operator import index
-
 my_tuple = (1, 2, 3, 4, 5, 6, 7, 3, 3)
 
 second_item = my_tuple[1]
