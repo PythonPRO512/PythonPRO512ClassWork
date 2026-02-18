@@ -2,7 +2,7 @@ import re
 
 text = "Мой телеграм — @username. Но лучше свяжитесь со мной по email: user@example.com или support@domain.org, mail1@yandex.ru"
 
-pattern = re.compile(r'[\w.-]+@[\w.-]+')
+pattern = re.compile(r'[\w.-]+@[\w.-]+\.[\w.-]+')
 matches = re.findall(pattern, text)
 print(matches)
 
